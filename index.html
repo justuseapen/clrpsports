@@ -96,15 +96,14 @@
 
         .map-container {
             width: 100%;
-            height: 350px;
             border-radius: 4px;
             overflow: hidden;
         }
 
-        .map-container iframe {
+        .map-container img {
             width: 100%;
-            height: 100%;
-            border: 0;
+            height: auto;
+            display: block;
         }
 
         .address {
@@ -168,12 +167,7 @@
             <div class="section">
                 <h2>Location</h2>
                 <div class="map-container">
-                    <iframe
-                        src="https://www.google.com/maps?q=1100+Cedar+Ln,+Bel+Air,+MD+21015&output=embed"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <img src="map.png" alt="Cedar Lane Rec Parks facility map">
                 </div>
                 <p class="address">1100 Cedar Ln, Bel Air, MD 21015</p>
             </div>
